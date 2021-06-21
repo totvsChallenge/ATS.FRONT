@@ -1,0 +1,20 @@
+<po-table [p-items]="candidates"  [p-columns]="columns" [p-actions]="actions">
+</po-table>
+
+<po-input name="input" class="po-md-12 " p-label="Name" [(ngModel)]="candidate.name"> </po-input>
+<input type="file" value="Curriculo" (change)="handleFileInput($event)" /><br>
+<po-select
+  name="jobs"
+  p-label="Escolha uma vaga"
+  [p-options]="jobs"
+  [(ngModel)]="selectedJobID"
+>
+</po-select>
+<po-button [p-label]="btnLabel" (click)="isEdit ? updateCandidate() : createCandidate() "></po-button>
+
+<!-- <po-select
+  name="select"
+  p-label="PO Select"
+  [p-options]="jobs"
+>
+</po-select> -->

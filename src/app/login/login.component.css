@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.login-container {
+    height: calc(100vh - 1em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

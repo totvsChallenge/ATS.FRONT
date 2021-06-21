@@ -1,0 +1,12 @@
+
+<po-table
+[p-items]="jobs"
+[p-actions]="actions"
+>
+</po-table>
+
+<po-input name="input" class="po-md-12 " p-label="Vaga" [(ngModel)]="job.title"> </po-input>
+<po-input name="input" class="po-md-12" p-label="Descrição" [(ngModel)]="job.description"> </po-input>
+<po-button [p-label]="btnLabel" (click)="isEdit ? updateJob() : createJob()"></po-button>
+
+

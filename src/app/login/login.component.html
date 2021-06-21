@@ -1,0 +1,7 @@
+<div class="login-container">
+   <div class="login-form">
+    <po-login name="login" p-label="Usuario" [(ngModel)]="user.name"> </po-login>
+    <po-password name="login" p-label="Senha" [(ngModel)]="user.password"> </po-password>
+    <po-button p-label="Entrar" (p-click)="handleLogin()"> </po-button>
+   </div>
+</div>

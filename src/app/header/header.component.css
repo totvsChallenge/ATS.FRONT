@@ -1,0 +1,28 @@
+.header-container {
+    padding: .6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.header-logo {
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.header-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-link {
+    cursor: pointer;
+    transition: all ease .3s;
+    opacity: 1;
+}
+
+.header-link:hover {
+  opacity: .7;
+}
