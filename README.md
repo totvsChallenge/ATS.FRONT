@@ -22,3 +22,15 @@ cd [PROJECT NAME]
 1- npm install
 2- ng serve
 ```
+
+### Deploy
+
+- Build Project
+
+
+### Prerequisites for Deploy
+
+- Create Acount in Microsoft Azure and app web with Node v14
+- Using extension Azure tools, deploy to Web App the folder 'Dist' create before deploy
+
+
