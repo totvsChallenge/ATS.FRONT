@@ -19,5 +19,6 @@ Run the application:
 
 ```
 cd [PROJECT NAME]
-ng serve
+1- npm install
+2- ng serve
 ```
